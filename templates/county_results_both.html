@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>County results</title>
+  <link rel="stylesheet" href="../static/datastyle.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/searchpage">Search By County</a></li>
+        <li><a href="/definitions">Definitions</a></li>
+        <li><a href="/dataset">Dataset</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Education Gap in Minnesota</h1>
+  <div>
+    <h2>Test Scores for {{county_searched}} County</h2>
+
+    <table>
+      <tr>
+        <th>Test Scores</th>
+        <th>School Grade</th>
+      </tr>
+      {% for row in score_for_county: %}
+      <tr>
+      <td>{{row[0]}}</td>
+      <td>{{row[1]}}</td>
+      </tr>
+      {% endfor %}
+
+    </table>
+
+    <h2>Socioeconomic Status of {{county_searched}} County</h2>
+    
+    <table>
+      <tr>
+        <th>Socioeconomic Status</th>
+      </tr>
+      {% for row in socioeconomic_for_county: %}
+      <tr>
+      <td>{{row[0]}}</td>
+      </tr>
+      {% endfor %}
+
+    </table>
+
+  </div>
+  <h4>The test scores value ranges roughly from -1 to 1 with a value of 0 representing the standardized test scores of the average school district in the U.S. The socioeconomic status score ranges roughly from -2 to 2 with a value of 0 representing the socioeconomic status of the average school district in the U.S.</h4>
+  
+</body>
+
+</html>

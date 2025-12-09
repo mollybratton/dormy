@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>Education gap in Minnesota</title>
+  <link rel="stylesheet" href="../static/datastyle.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/searchpage">Search By County</a></li>
+        <li><a href="/definitions">Definitions</a></li>
+        <li><a href="/dataset">Dataset</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Education Gap in Minnesota</h1>
+  <div>
+    <p>
+      You can use this search tool to look up test scores and socioeconomic
+      measure of various counties in Minnesota for the year 2019.
+      
+    </p>
+  </div>
+  <div>
+    <form action="/displaycountyresults">
+      <label for="countyname">Select a County:</label>
+      <select id="countyname" name="countyname" required>
+        <option value="" disabled selected>--</option>
+        {% for county in counties %}
+        <option value="{{ county }}">{{ county }}</option>
+        {% endfor %}
+      </select>
+      <br><br>
+      <input id = "radio" type="radio" name="data_type" value="SES" required>
+      <label for="SES">Socioeconomic Status</label>
+      <input id = "radio" type="radio" name="data_type" value="Scores" required>
+      <label for="Scores">Scores</label>
+      <input id = "radio" type="radio" name="data_type" value="Both" required>
+      <label for="Both">Both</label>
+      <br><br>
+      <input id = "submit" type="submit" value="Submit" />
+    </form>
+  </div>
+</body>
+
+</html>

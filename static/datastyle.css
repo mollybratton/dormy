@@ -1,0 +1,203 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+	font-family: Verdana, Geneva, sans-serif; 
+	background: rgb(154,170,230);
+	background: radial-gradient(circle, rgba(154,170,230,1) 0%, rgba(211,178,211,1) 54%, rgba(255,183,211,1) 100%);
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+	text-align: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+h1 {
+	font-size: 60px;
+	margin-top: 2em;
+	color: #00207f;
+	text-align: center;
+}
+
+h2 {
+    text-align: center;
+	color: #000000;
+	font-size: 30px;
+}
+
+p {
+	text-align: center;
+	line-height: 1.4;
+	font-size: 20px;
+}
+
+nav {
+    text-align: center;
+	font-weight: bold;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0em;
+	padding: 10px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	color: #00207f;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+}
+nav li a:hover {
+    background-color: pink;
+
+}
+
+form {
+	text-align: center;
+}
+
+/* .dataset {
+	text-align: left; */
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+}
+
+th {
+    background-color: #00207f;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6f2ff;
+}
+
+/* For responsive design */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}
+
+button {
+	position: absolute;
+	left: 50%; /* Moves button to the middle horizontally */
+	transform: translateX(-50%);
+	display: inline-block;
+	border-radius: 4px;
+	background-color: pink;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 26px;
+	padding: 20px;
+	width: 200px;
+	text-decoration: none;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	vertical-align:middle;
+	border: 3px #00207f;
+	border-radius: 4px;
+	border-style: solid;
+  }
+  
+  button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	transition: 0.5s;
+	color: #00207f;
+  }
+  
+  button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  button:hover span {
+	padding-right: 25px;
+  }
+  
+  button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
+  button span a {
+	text-decoration: none;
+  }
+
+  input[type = "radio"] {
+	accent-color: #00207f;
+	height: 20px;
+	width: 20px;
+	font-size: 30px;
+  }
+
+  label {
+	font-size: 20px;
+  }
+
+  input[type = "submit"] {
+	background: #0066A2;
+	color: white;
+	border-color: #0066A2;
+	border-style: outset;
+	height: 50px;
+	width: 150px;
+	font: 25px arial,sans-serif;
+	text-shadow: none;
+  }
+
+  select {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+  }
+
+  h4{
+	font-size: 20px;
+	display: inline-block;
+	border-radius: 10px;
+	background-color: rgb(148, 184, 238);
+	position: relative;
+	bottom: 0%;
+  }
