@@ -28,18 +28,18 @@ class DataSource:
             exit()
         return connection
 
-    def getSESByCounty(self, county):
+    def areaByBuilding(self, building):
         '''
-        Arguments: self, county
-        Return value: data of the SES from a county
-        Purpose: Get data from our data table and return all of the SES from a certain county
+        Arguments: self, building
+        Return value: list of dorms with largest area for a specified building
+        Purpose: Get data from our data table and return the dorms with largest area for a specified building
         '''
         try:
             # set up a cursor
             cursor = self.connection.cursor()
 
             # make the query using %s as a placeholder for the variable
-            query = "SELECT DISTINCT ses FROM ses_table WHERE countyname = %s;"
+            query = "SELECT * FROM dorm_table WHERE building = %s ORDER BY area;"
 
             # executing the query and saying that the type variable 
             # should be placed where %s was, the trailing comma is important!
@@ -50,18 +50,18 @@ class DataSource:
             print ("Something went wrong when executing the query: ", e)
             return None
 
-    def getScoresByCounty(self, county):
+    def areaByRoomType(self, room_type):
         '''
-        Arguments: self, county
-        Return value: data of the scores from a county
-        Purpose: Get data from our data table and return all of the scores from a certain county
+        Arguments: self, room_type
+        Return value: list of dorms with largest area for a specified room type
+        Purpose: Get data from our data table and return the dorms with largest area for a specified room type
         '''
         try:
             # set up a cursor
             cursor = self.connection.cursor()
 
             # make the query using %s as a placeholder for the variable
-            query = "SELECT scores, grade FROM scores_table WHERE countyname = %s;"
+            query = "SELECT * FROM dorm_table WHERE room_type = %s ORDER BY area;"
 
             # executing the query and saying that the type variable 
             # should be placed where %s was, the trailing comma is important!
@@ -72,13 +72,61 @@ class DataSource:
             print ("Something went wrong when executing the query: ", e)
             return None
 
-    def getAllCountyNames(self):
+    def areaByFloorType(self, floor_type):
+        '''
+        Arguments: self, floor_type
+        Return value: list of dorms with largest area for a specified floor type
+        Purpose: Get data from our data table and return the dorms with largest area for a specified floor type
+        '''
+        try:
+            # set up a cursor
+            cursor = self.connection.cursor()
+
+            # make the query using %s as a placeholder for the variable
+            query = "SELECT * FROM dorm_table WHERE floor_type = %s ORDER BY area;"
+
+            # executing the query and saying that the type variable 
+            # should be placed where %s was, the trailing comma is important!
+            cursor.execute(query, (county,))
+            return cursor.fetchall()
+
+        except Exception as e:
+            print ("Something went wrong when executing the query: ", e)
+            return None
+
+    def getAllBuildingNames(self):
         """Arguments: None
-        Return value: List of county names
-        Purpose: Fetches all county names from the database for use in the dropdown list."""
+        Return value: List of building names
+        Purpose: Fetches all building names from the database for use in the dropdown list."""
         try:
             cursor = self.connection.cursor()
-            query = "SELECT DISTINCT countyname FROM scores_table ORDER BY countyname;"
+            query = "SELECT DISTINCT building FROM dorm_table ORDER BY building;"
+            cursor.execute(query)
+            return [row[0] for row in cursor.fetchall()]
+        except Exception as e:
+            print("Error fetching counties:", e)
+            return []
+
+    def getAllRoomTypes(self):
+        """Arguments: None
+        Return value: List of room types
+        Purpose: Fetches all room types from the database for use in the dropdown list."""
+        try:
+            cursor = self.connection.cursor()
+            query = "SELECT DISTINCT room_type FROM dorm_table ORDER BY room_type;"
+            cursor.execute(query)
+            return [row[0] for row in cursor.fetchall()]
+        except Exception as e:
+            print("Error fetching counties:", e)
+            return []
+
+    def getAllFloorTypes(self):
+        """Arguments: None
+        Return value: List of floor types
+        Purpose: Fetches all floor types from the database for use in the dropdown list."""
+        try:
+            cursor = self.connection.cursor()
+            query = "SELECT DISTINCT floor_type FROM dorm_table ORDER BY floor_type;"
             cursor.execute(query)
             return [row[0] for row in cursor.fetchall()]
         except Exception as e:
