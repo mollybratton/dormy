@@ -1,6 +1,6 @@
 import psycopg2
 
-import ProductionCode.psqlConfig as config
+import .config.git.ignore.psqlConfig as config
 
 class DataSource:
     """Class responsible for connecting to the PostgreSQL database and executing queries."""
