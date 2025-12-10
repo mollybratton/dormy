@@ -1,3 +1,3 @@
-database = 
+database = test
 user = 
 password = 
