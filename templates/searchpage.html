@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Education gap in Minnesota</title>
+  <title>Dormy</title>
   <link rel="stylesheet" href="../static/datastyle.css" />
 </head>
 
@@ -10,37 +10,27 @@
     <nav>
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/searchpage">Search By County</a></li>
-        <li><a href="/definitions">Definitions</a></li>
-        <li><a href="/dataset">Dataset</a></li>
+        <li><a href="/searchpage">Search By Building</a></li>
+        <li><a href="/dataset">Data Source</a></li>
       </ul>
     </nav>
   </header>
-  <h1>Education Gap in Minnesota</h1>
+  <h1>Dormy</h1>
   <div>
     <p>
-      You can use this search tool to look up test scores and socioeconomic
-      measure of various counties in Minnesota for the year 2019.
+      You can use this search tool to look up dorms in Carleton buildings sorted by largest area.
       
     </p>
   </div>
   <div>
-    <form action="/displaycountyresults">
-      <label for="countyname">Select a County:</label>
-      <select id="countyname" name="countyname" required>
+    <form action="/building_results">
+      <label for="bulding">Select a building:</label>
+      <select id="buildingname" name="buildingname" required>
         <option value="" disabled selected>--</option>
-        {% for county in counties %}
-        <option value="{{ county }}">{{ county }}</option>
+        {% for building in dorms %}
+        <option value="{{ building }}">{{ building }}</option>
         {% endfor %}
       </select>
-      <br><br>
-      <input id = "radio" type="radio" name="data_type" value="SES" required>
-      <label for="SES">Socioeconomic Status</label>
-      <input id = "radio" type="radio" name="data_type" value="Scores" required>
-      <label for="Scores">Scores</label>
-      <input id = "radio" type="radio" name="data_type" value="Both" required>
-      <label for="Both">Both</label>
-      <br><br>
       <input id = "submit" type="submit" value="Submit" />
     </form>
   </div>

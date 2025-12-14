@@ -1,6 +1,6 @@
 import psycopg2
 
-import .config.git.ignore.psqlConfig as config
+import config.git.ignore.psqlConfig as config
 
 class DataSource:
     """Class responsible for connecting to the PostgreSQL database and executing queries."""
@@ -39,11 +39,11 @@ class DataSource:
             cursor = self.connection.cursor()
 
             # make the query using %s as a placeholder for the variable
-            query = "SELECT * FROM dorm_table WHERE building = %s ORDER BY area;"
+            query = "SELECT * FROM dorm_table WHERE building = %s ORDER BY area DESC;"
 
             # executing the query and saying that the type variable 
             # should be placed where %s was, the trailing comma is important!
-            cursor.execute(query, (county,))
+            cursor.execute(query, (building,))
             return cursor.fetchall()
 
         except Exception as e:

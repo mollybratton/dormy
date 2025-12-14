@@ -20,7 +20,7 @@ def homepage():
 
 
 
-@app.route("/building")
+@app.route("/building_results")
 def display_building_results():
     """Arguments: None
     Return value: Dorms for specifed building
@@ -68,20 +68,14 @@ def dataset_info():
     Purpose: Display the data source links"""
     return render_template("dataset_info.html")
 
-@app.route("/definitions")
-def definitions():
-    """Arguments: None
-    Return value: Page with information about the data source for the website
-    Purpose: Display the data source links"""
-    return render_template("definitions.html")
 
 @app.route("/searchpage")
 def search_page():
     """Arguments: None
-    Return value: Page with information about the data source for the website
-    Purpose: Display the data source links"""
-    counties = data.getAllCountyNames()
-    return render_template("searchpage.html", counties=counties)
+    Return value: Page where you can search dorms by building
+    Purpose: Display the buildings that you can choose from"""
+    dorms = data.getAllBuildingNames()
+    return render_template("searchpage.html", dorms=dorms)
  
 
 @app.route('/Bug/', strict_slashes=False)
@@ -113,7 +107,7 @@ def main():
     Return Value: None
     Purpose: Run the app
     '''
-    app.run(host='0.0.0.0', port=5241)
+    app.run(host='0.0.0.0', port=5205)
     
 if __name__ == '__main__':
 # Debugging, remove after testing
