@@ -16,18 +16,22 @@
       </ul>
     </nav>
   </header>
-  <h1>Education Gap in Minnesota</h1>
+  <h1>Dormy</h1>
   <div>
-    <h2>Test Scores for {{county_searched}} County</h2>
+    <h2>Dorms in {{building_searched}}</h2>
     <table>
       <tr>
-        <th>Test Scores</th>
-        <th>School Grade</th>
+        <th>Building</th>
+        <th>Room Number</th>
+        <th>Room Type</th>
+        <th>Area</th>
       </tr>
-      {% for row in score_for_county: %}
+      {% for row in dorms_from_building: %}
       <tr>
       <td>{{row[0]}}</td>
       <td>{{row[1]}}</td>
+      <td>{{row[2]}}</td>
+      <td>{{row[3]}}</td>
       </tr>
       {% endfor %}
 

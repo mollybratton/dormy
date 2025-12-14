@@ -16,66 +16,50 @@ def homepage():
     Purpose: To display the homepage with instructions on how to interact with the app withinthe httml tags.
     Provides information on available routes and how to use them to retrieve data.
     '''
-    return render_template("index.html", title = "Minnesota Education Gap Project")
+    return render_template("index.html", title = "Dormy")
 
 
-@app.route('/ses/<county_name>', strict_slashes=False)
-def ses_by_county_page(county_name):
-    '''
-    Arguments: 
-        county_name (str) - The name of the county to look up
-    Return value: str - The SES value for the specified county.
-    Purpose: To retrieve and display the socioeconomic status (SES) for a given county
-    by calling the helper function 'get_ses_by_county'.
-    '''
-    ses = data.getSESByCounty(county_name) 
-    return f"The socioeconomic status (SES) of {county_name} is: {ses}"
 
-@app.route('/scores/<county_name>', strict_slashes=False)
-def scores_by_county_page(county_name):
-    '''
-    Arguments:
-        county_name (str) - The name of the county to look up
-    Return value: str - The test scores for the specified county.
-    Purpose: To retrieve and displays the test scores for a given county
-    by calling the helper function 'get_scores_by_county'.
-    '''
-    scores = data.getScoresByCounty(county_name)  # Call the function from helper_functions
-    return f"The test scores of {county_name} are: {scores}"
-
-@app.route("/displaycountyresults")
-def display_county_results():
+@app.route("/building")
+def display_building_results():
     """Arguments: None
-    Return value: Test scores and socioeconomic measure for a specific county or None
-    Purpose: Looks through data to see if there is a matching county, and returns the relevant test scores and socioeconomic measure
+    Return value: Dorms for specifed building
+    Purpose: Looks through data to find the dorms in a specified building, and returns the dorms sorted by area
     """
-    county = str(request.args["countyname"])
-    datatype = str(request.args["data_type"])
-    if datatype == "SES":
-        socioeconomic = data.getSESByCounty(county)
-        return render_template(
-        "county_results_ses.html",
-        county_searched=county,
-        socioeconomic_for_county=socioeconomic,
-    )
-    
-    elif datatype == "Scores":
-        score = data.getScoresByCounty(county)
-        return render_template(
-        "county_results_scores.html",
-        county_searched=county,
-        score_for_county=score,
+    building = str(request.args["buildingname"])
+    dorms = data.areaByBuilding(building)
+    return render_template(
+    "building_results.html",
+    building_searched = building,
+    dorms_from_building = dorms,
     )
 
-    elif datatype == "Both":
-        score = data.getScoresByCounty(county)
-        socioeconomic = data.getSESByCounty(county)
-        return render_template(
-        "county_results_both.html",
-        county_searched=county,
-        score_for_county=score,
-        socioeconomic_for_county=socioeconomic,
-        )
+    # datatype = str(request.args["data_type"])
+    # if datatype == "SES":
+    #     socioeconomic = data.getSESByCounty(county)
+    #     return render_template(
+    #     "county_results_ses.html",
+    #     county_searched=county,
+    #     socioeconomic_for_county=socioeconomic,
+    # )
+    
+    # elif datatype == "Scores":
+    #     score = data.getScoresByCounty(county)
+    #     return render_template(
+    #     "county_results_scores.html",
+    #     county_searched=county,
+    #     score_for_county=score,
+    # )
+
+    # elif datatype == "Both":
+    #     score = data.getScoresByCounty(county)
+    #     socioeconomic = data.getSESByCounty(county)
+    #     return render_template(
+    #     "county_results_both.html",
+    #     county_searched=county,
+    #     score_for_county=score,
+    #     socioeconomic_for_county=socioeconomic,
+    #     )
 
 @app.route("/dataset")
 def dataset_info():
