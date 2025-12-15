@@ -1,0 +1,833 @@
+BURTON,102A,"Triple, 2 Room",165,
+BURTON,103,Single,165,
+BURTON,104,Double,156,
+BURTON,106A,"Double, 2 Room",174,
+BURTON,107A,"Double, 2 Room",72,
+BURTON,108,Single,79,
+BURTON,109,Single,150,
+BURTON,110A,"Double, 2 Room",146,
+BURTON,111A,"Triple, 2 Room",102,
+BURTON,113A,"Triple, 2 Room",88,
+BURTON,115,Double,132,
+BURTON,119,Triple,233,
+BURTON,121A,Single in a Triple,444,
+BURTON,121B,Double in Triple,84,
+BURTON,122A,"Double, 2 Room",83,
+BURTON,123,Single,83,
+BURTON,124,Single,153,
+BURTON,125A,"Double, 2 Room",143,
+BURTON,126A,"Double, 2 Room",74,
+BURTON,128,Double,169,
+BURTON,129,Single,174,
+BURTON,130A,"Triple, 2 Room",133,
+BURTON,131A,"Triple, 2 Room",149,
+BURTON,201A,"Triple, 2 Room",209,
+BURTON,202A,"Triple, 2 Room",165,
+BURTON,205,Single,165,
+BURTON,206,Single,245,
+BURTON,208A,Single in a Triple,174,
+BURTON,208B,Double in Triple,71,
+BURTON,209A,"Double, 2 Room",74,
+BURTON,210,Single,79,
+BURTON,211,Single,153,
+BURTON,212A,"Double, 2 Room",148,
+BURTON,213A,Single in a Triple,102,
+BURTON,213B,Double in Triple,83,
+BURTON,215,Single,82,
+BURTON,217A,"Triple, 2 Room",140,
+BURTON,221,Double,169,
+BURTON,222,"Double, 2 Room",279,
+BURTON,223,Single,167,
+BURTON,224,Single,170,
+BURTON,225A,Single in a Triple,151,
+BURTON,225B,Double in Triple,153,
+BURTON,226A,Single in a Triple,63,
+BURTON,226B,Double in Triple,69,
+BURTON,227,Single,138,
+BURTON,228,Single,150,
+BURTON,229A,"Double, 2 Room",160,
+BURTON,230A,"Triple, 2 Room",74,
+BURTON,233,Single,230,
+BURTON,235A,"Triple, 2 Room",135,
+BURTON,301A,"Triple, 2 Room",163,
+BURTON,302A,"Triple, 2 Room",165,
+BURTON,305,Single,165,
+BURTON,306,Single,129,
+BURTON,308A,Single in a Triple,164,
+BURTON,308B,Double in Triple,71,
+BURTON,309,Single,74,
+BURTON,310,Single,75,
+BURTON,311A,"Triple, 2 Room",155,
+BURTON,312A,"Double, 2 Room",169,
+BURTON,313,Single,102,
+BURTON,315,Double,162,
+BURTON,317,Single,229,
+BURTON,319A,"Double, 2 Room",182,
+BURTON,321,Double,89,
+BURTON,322,Double,281,
+BURTON,323,Single,232,
+BURTON,324,Single,164,
+BURTON,325A,Single in a Triple,148,
+BURTON,325B,Double in Triple,64,
+BURTON,326A,Single in a Triple,71,
+BURTON,326B,Double in Triple,69,
+BURTON,328,Single,138,
+BURTON,329,Single,160,
+BURTON,330A,"Triple, 2 Room",142,
+BURTON,331,Single,230,
+BURTON,335,Single,125,
+BURTON,339,Triple,128,
+BURTON,400,Double,318,Substance Free
+BURTON,401,Double,214,Substance Free
+BURTON,402,Single,207,Substance Free
+BURTON,404,Double,153,Substance Free
+BURTON,406,Double,217,Substance Free
+BURTON,407,Single,255,Substance Free
+BURTON,408,Single,163,Substance Free
+BURTON,409,Double,138,Substance Free
+BURTON,411,Double,237,Substance Free
+BURTON,413A,"Triple, 2 Room",201,Substance Free
+BURTON,414A,Single in a Triple,206,Substance Free
+BURTON,414B,Double in Triple,106,Substance Free
+BURTON,417,Double,108,Substance Free
+BURTON,418,Single,241,Substance Free
+BURTON,419,Double,138,Substance Free
+BURTON,420,Double,236,Substance Free
+BURTON,421,Single,264,Substance Free
+BURTON,422,Double,170,Substance Free
+BURTON,424A,"Triple, 2 Room",249,Substance Free
+BURTON,427,Double,114,Substance Free
+CASSAT,106,Single,219,
+CASSAT,107,Double,149,
+CASSAT,108,Single,193,
+CASSAT,109,Double,140,
+CASSAT,111,Double,192,
+CASSAT,112,Double,198,
+CASSAT,113,Double,229,
+CASSAT,114,Double,229,
+CASSAT,115,Single,207,
+CASSAT,126,Double,148,
+CASSAT,127,Single,197,
+CASSAT,128,Double,145,
+CASSAT,129,Single,197,
+CASSAT,201,Single,143,Substance Free
+CASSAT,202,Double,114,Substance Free
+CASSAT,203,Double,207,Substance Free
+CASSAT,204,Double,228,Substance Free
+CASSAT,205,Double,232,Substance Free
+CASSAT,207,Double,199,Substance Free
+CASSAT,208,Single,192,Substance Free
+CASSAT,209,Double,141,Substance Free
+CASSAT,211,Double,192,Substance Free
+CASSAT,212,Double,199,Substance Free
+CASSAT,213,Double,229,Substance Free
+CASSAT,214,Double,229,Substance Free
+CASSAT,216,Single,208,Substance Free
+CASSAT,217,Single,147,Substance Free
+CASSAT,218,Single,147,Substance Free
+CASSAT,219,Double,143,Substance Free
+CASSAT,220,Double,206,Substance Free
+CASSAT,221,Double,230,Substance Free
+CASSAT,222,Double,230,Substance Free
+CASSAT,226,Double,220,Substance Free
+CASSAT,227,Single,197,Substance Free
+CASSAT,228,Double,145,Substance Free
+CASSAT,229,Single,197,Substance Free
+CASSAT,301,Single,143,
+CASSAT,302,Double,114,
+CASSAT,303,Double,207,
+CASSAT,304,Double,228,
+CASSAT,305,Double,232,
+CASSAT,307,Double,199,
+CASSAT,308,Single,192,
+CASSAT,309,Double,141,
+CASSAT,311,Double,192,
+CASSAT,312,Double,199,
+CASSAT,313,Double,229,
+CASSAT,314,Double,229,
+CASSAT,316,Single,208,
+CASSAT,317,Single,147,
+CASSAT,318,Single,147,
+CASSAT,319,Double,143,
+CASSAT,320,Double,206,
+CASSAT,321,Double,230,
+CASSAT,322,Double,230,
+CASSAT,326,Double,220,
+CASSAT,327,Single,197,
+CASSAT,328,Double,145,
+CASSAT,329,Single,197,
+CASSAT,401,Single,143,
+CASSAT,402,Double,114,
+CASSAT,403,Double,207,
+CASSAT,404,Double,212,
+CASSAT,405,Double,216,
+CASSAT,407,Double,199,
+CASSAT,408,Single,193,
+CASSAT,409,Double,140,
+CASSAT,411,Double,192,
+CASSAT,412,Double,199,
+CASSAT,413,Double,212,
+CASSAT,414,Double,212,
+CASSAT,416,Single,208,
+CASSAT,417,Single,150,
+CASSAT,418,Single,145,
+CASSAT,419,Double,145,
+CASSAT,420,Double,207,
+CASSAT,421,Double,215,
+CASSAT,422,Double,215,
+CASSAT,426,Double,221,
+CASSAT,427,Single,197,
+CASSAT,428,Double,145,
+CASSAT,429,Single,197,
+DAVIS,104A,Single in a Quint,145,Quiet Living Area
+DAVIS,104B,Double in a Quint,102,Quiet Living Area
+DAVIS,104C,Double in a Quint,157,Quiet Living Area
+DAVIS,106,Double in Quad,210,Quiet Living Area
+DAVIS,107,Double in Quad,218,Quiet Living Area
+DAVIS,108,Double,214,Quiet Living Area
+DAVIS,109,Double in Quad,240,Quiet Living Area
+DAVIS,110,Double in Quad,241,Quiet Living Area
+DAVIS,111,Single in a Quad,215,Quiet Living Area
+DAVIS,112,Triple in a Quad,173,Quiet Living Area
+DAVIS,114,Single in a Triple,309,Quiet Living Area
+DAVIS,115,Double in Triple,165,Quiet Living Area
+DAVIS,116A,"Triple, 2 Room",168,Quiet Living Area
+DAVIS,121,Single in a Triple,223,Quiet Living Area
+DAVIS,122,Double in Triple,170,Quiet Living Area
+DAVIS,204A,Single in a Quint,382,
+DAVIS,204B,Double in a Quint,101,
+DAVIS,204C,Double in a Quint,158,
+DAVIS,206,Double in Quad,211,
+DAVIS,207,Double in Quad,226,
+DAVIS,208,Double,205,
+DAVIS,209,Double in Quad,239,
+DAVIS,210,Double in Quad,236,
+DAVIS,211,Double in a Quint,224,
+DAVIS,212,Triple in a Quint,191,
+DAVIS,214,Single in a Triple,315,
+DAVIS,215,Double in Triple,173,
+DAVIS,216A,"Triple, 2 Room",164,
+DAVIS,221,Single in a Triple,181,
+DAVIS,222,Double in Triple,139,
+DAVIS,304A,Single in a Quint,339,
+DAVIS,304B,Double in a Quint,103,
+DAVIS,304C,Double in a Quint,158,
+DAVIS,306,Double in Quad,211,
+DAVIS,307,Double in Quad,225,
+DAVIS,308,Double,197,
+DAVIS,309,Double,243,
+DAVIS,312,Double,187,
+DAVIS,314A,Single in a Quint,184,
+DAVIS,314B,Double in a Quint,161,
+DAVIS,314C,Double in a Quint,220,
+DAVIS,319,Single in a Triple,186,
+DAVIS,320,Double in Triple,142,
+DAVIS,404A,Single in a Quint,363,Substance Free
+DAVIS,404B,Double in a Quint,103,Substance Free
+DAVIS,404C,Double in a Quint,158,Substance Free
+DAVIS,406,Double,211,Substance Free
+DAVIS,407,Double in Quad,251,Substance Free
+DAVIS,408,Double in Quad,222,Substance Free
+DAVIS,409,Double,235,Substance Free
+DAVIS,412,Double,228,Substance Free
+DAVIS,413,Single in a Triple,309,Substance Free
+DAVIS,414,Double in Triple,210,Substance Free
+EVANS,5,Quad,326,
+EVANS,6,Single,362,
+EVANS,7,Double,121,
+EVANS,8,Double,219,
+EVANS,10,Quad in a Sextet,183,
+EVANS,11,Double in a Sextet,507,
+EVANS,17,Quad,307,
+EVANS,18,Triple,396,
+EVANS,19,Triple,312,
+EVANS,21,Triple,300,
+EVANS,106,Triple,351,
+EVANS,107,Single,298,
+EVANS,108,Triple,116,
+EVANS,109,Triple,235,
+EVANS,111,Quad,279,
+EVANS,118,Double,409,
+EVANS,119,Triple,207,
+EVANS,120,Triple,258,
+EVANS,122,Triple,306,
+EVANS,200,"Triple, 2 Room",361,
+EVANS,203,Triple,224,
+EVANS,204,Triple,243,
+EVANS,205,Single,252,
+EVANS,207,Triple,150,
+EVANS,208,Double,367,
+EVANS,209,Double,201,
+EVANS,211,Quad,221,
+EVANS,212,Double,413,
+EVANS,213,Quad,200,
+EVANS,214,Quad,218,
+EVANS,216,Triple,215,
+EVANS,300,Triple,202,
+EVANS,303,Triple,209,
+EVANS,304,Triple,272,
+EVANS,305,Single,248,
+EVANS,307,Triple,151,
+EVANS,308,Double,327,
+EVANS,309,Double,208,
+EVANS,311,Quad,225,
+EVANS,312,Double,341,
+EVANS,313,Quad,202,
+EVANS,314,Quad,205,
+EVANS,316,"Triple, 2 Room",215,
+EVANS,400,Triple,216,Substance Free
+EVANS,402,Double,303,Substance Free
+EVANS,403,Triple,194,Substance Free
+EVANS,405,Double,323,Substance Free
+EVANS,406,"Double, Adj. Bath",283,Substance Free
+EVANS,407,"Double, Adj. Bath",208,Substance Free
+EVANS,411,Single,257,Substance Free
+EVANS,412,Quad,147,Substance Free
+EVANS,413,Triple,423,Substance Free
+EVANS,415,Triple,297,Substance Free
+GOODHUE,102,Double,264,All First Year Student Living Community
+GOODHUE,103,Double,221,All First Year Student Living Community
+GOODHUE,104,Double,223,All First Year Student Living Community
+GOODHUE,105,Double,224,All First Year Student Living Community
+GOODHUE,106,Double,215,All First Year Student Living Community
+GOODHUE,112,Double,219,All First Year Student Living Community
+GOODHUE,113,Double,225,All First Year Student Living Community
+GOODHUE,114,Double,223,All First Year Student Living Community
+GOODHUE,115,Double,222,All First Year Student Living Community
+GOODHUE,117,Double,219,All First Year Student Living Community
+GOODHUE,118,Double,220,All First Year Student Living Community
+GOODHUE,119,Double,223,All First Year Student Living Community
+GOODHUE,121,Double,212,All First Year Student Living Community
+GOODHUE,122,Double,216,All First Year Student Living Community
+GOODHUE,125,Single,215,All First Year Student Living Community
+GOODHUE,126,Double,215,All First Year Student Living Community
+GOODHUE,128,Double,215,All First Year Student Living Community
+GOODHUE,130,Double,214,All First Year Student Living Community
+GOODHUE,132,Double,213,All First Year Student Living Community
+GOODHUE,133,Double,213,All First Year Student Living Community
+GOODHUE,135,Single,213,All First Year Student Living Community
+GOODHUE,137,Double,213,All First Year Student Living Community
+GOODHUE,139,Double,214,All First Year Student Living Community
+GOODHUE,140,Double,214,All First Year Student Living Community
+GOODHUE,201,Double,214,Substance Free
+GOODHUE,202,Single,223,Substance Free
+GOODHUE,203,Double,172,Substance Free
+GOODHUE,204,Single,209,Substance Free
+GOODHUE,205,Double,169,Substance Free
+GOODHUE,206,Double,222,Substance Free
+GOODHUE,207,Double,223,Substance Free
+GOODHUE,208,Single,223,Substance Free
+GOODHUE,209,Double,172,Substance Free
+GOODHUE,214,Double,192,Substance Free
+GOODHUE,215,Double,222,Substance Free
+GOODHUE,216,Double,223,Substance Free
+GOODHUE,217,Single,224,Substance Free
+GOODHUE,218,Double,168,Substance Free
+GOODHUE,219,Single,209,Substance Free
+GOODHUE,220,Double,171,Substance Free
+GOODHUE,221,Double,222,Substance Free
+GOODHUE,223,Double,214,Substance Free
+GOODHUE,224,Double,214,Substance Free
+GOODHUE,227,Double,214,Substance Free
+GOODHUE,228,Double,214,Substance Free
+GOODHUE,230,Double,214,Substance Free
+GOODHUE,232,Double,214,Substance Free
+GOODHUE,235,Double,214,Substance Free
+GOODHUE,237,Double,214,Substance Free
+GOODHUE,239,Double,214,Substance Free
+GOODHUE,241,Double,214,Substance Free
+GOODHUE,242,Double,214,Substance Free
+GOODHUE,243,Double,214,Substance Free
+GOODHUE,245,Double,213,Substance Free
+GOODHUE,301,Double,214,
+GOODHUE,302,Single,224,
+GOODHUE,303,Double,161,
+GOODHUE,304,Single,212,
+GOODHUE,305,Double,172,
+GOODHUE,306,Double,215,
+GOODHUE,307,Double,222,
+GOODHUE,308,Single,221,
+GOODHUE,309,Double,171,
+GOODHUE,314,Double,209,
+GOODHUE,315,Double,224,
+GOODHUE,316,Double,223,
+GOODHUE,317,Single,210,
+GOODHUE,318,Double,165,
+GOODHUE,319,Single,210,
+GOODHUE,320,Double,171,
+GOODHUE,321,Double,224,
+GOODHUE,323,Double,214,
+GOODHUE,324,Double,215,
+GOODHUE,327,Double,214,
+GOODHUE,328,Double,213,
+GOODHUE,330,Double,214,
+GOODHUE,332,Double,214,
+GOODHUE,335,Double,215,
+GOODHUE,337,Double,213,
+GOODHUE,339,Double,214,
+GOODHUE,341,Double,214,
+GOODHUE,342,Double,214,
+GOODHUE,343,Double,214,
+GOODHUE,345,Double,214,
+GOODHUE,401,Double,214,
+GOODHUE,402,Single,221,
+GOODHUE,403,Double,168,
+GOODHUE,404,Single,208,
+GOODHUE,405,Double,170,
+GOODHUE,406,Double,222,
+GOODHUE,407,Double,220,
+GOODHUE,408,Single,222,
+GOODHUE,409,Double,163,
+GOODHUE,414,Double,207,
+GOODHUE,415,Double,222,
+GOODHUE,416,Double,220,
+GOODHUE,417,Single,223,
+GOODHUE,418,Double,168,
+GOODHUE,419,Single,213,
+GOODHUE,420,Double,172,
+GOODHUE,421,Double,222,
+GOODHUE,423,Double,214,
+GOODHUE,424,Double,213,
+GOODHUE,427,Double,213,
+GOODHUE,428,Double,214,
+GOODHUE,430,Double,213,
+GOODHUE,432,Double,214,
+GOODHUE,435,Double,214,
+GOODHUE,437,Double,214,
+GOODHUE,439,Double,213,
+GOODHUE,441,Double,214,
+GOODHUE,442,Double,213,
+GOODHUE,443,Double,213,
+GOODHUE,445,Double,214,
+JAMES,004A,Single in a Quint,214,
+JAMES,004B,Single in a Quint,125,
+JAMES,004C,Single in a Quint,142,
+JAMES,004D,Double in a Quint,104,
+JAMES,005A,Double in a Quint,223,
+JAMES,005B,Single in a Quint,223,
+JAMES,005C,Single in a Quint,104,
+JAMES,005D,Single in a Quint,142,
+JAMES,101A,Single in a Quad,126,
+JAMES,101B,Double in Quad,120,
+JAMES,101C,Single in a Quad,244,
+JAMES,102A,Single in a Quad,110,
+JAMES,102B,Double in Quad,120,
+JAMES,102C,Single in a Quad,244,
+JAMES,103A,Double in Quad,110,
+JAMES,103B,Single in a Quad,232,
+JAMES,103C,Single in a Quad,120,
+JAMES,104A,Single in a Quad,124,
+JAMES,104B,Single in a Quad,108,
+JAMES,104C,Double in Quad,108,
+JAMES,201A,Single in a Quad,176,
+JAMES,201B,Double in Quad,120,
+JAMES,201C,Single in a Quad,244,
+JAMES,202A,Single in a Quint,110,
+JAMES,202B,Single in a Quint,120,
+JAMES,202C,Double in a Quint,120,
+JAMES,202D,Single in a Quint,244,
+JAMES,203A,Double in Quad,110,
+JAMES,203B,Single in a Quad,232,
+JAMES,203C,Single in a Quad,120,
+JAMES,204A,Single in a Quad,124,
+JAMES,204B,Single in a Quad,108,
+JAMES,204C,Double in Quad,108,
+JAMES,205A,Double in a Quint,176,
+JAMES,205B,Single in a Quint,172,
+JAMES,205C,Single in a Quint,155,
+JAMES,205D,Single in a Quint,125,
+JAMES,301A,Single in a Quad,115,
+JAMES,301B,Double in Quad,120,
+JAMES,301C,Single in a Quad,244,
+JAMES,302A,Single in a Quint,110,
+JAMES,302B,Single in a Quint,120,
+JAMES,302C,Double in a Quint,120,
+JAMES,302D,Single in a Quint,244,
+JAMES,303A,Double in Quad,110,
+JAMES,303B,Single in a Quad,232,
+JAMES,303C,Single in a Quad,120,
+JAMES,304A,Single in a Quad,124,
+JAMES,304B,Single in a Quad,108,
+JAMES,304C,Double in Quad,108,
+JAMES,305A,Double in a Quint,176,
+JAMES,305B,Single in a Quint,172,
+JAMES,305C,Single in a Quint,155,
+JAMES,305D,Single in a Quint,125,
+JAMES,401A,Single in a Quad,115,
+JAMES,401B,Double in Quad,124,
+JAMES,401C,Single in a Quad,244,
+JAMES,402A,Single in a Quint,110,
+JAMES,402B,Single in a Quint,120,
+JAMES,402C,Double in a Quint,120,
+JAMES,402D,Single in a Quint,244,
+JAMES,403A,Double in Quad,110,
+JAMES,403B,Double in Quad,223,
+JAMES,404A,Single in a Quad,290,
+JAMES,404B,Single in a Quad,108,
+JAMES,404C,Double in Quad,108,
+JAMES,405A,Double in a Quint,176,
+JAMES,405B,Double in a Quint,178,
+JAMES,405C,Single in a Quint,280,
+MUSSER,201,Double,115,Substance Free
+MUSSER,202,Double,197,Substance Free
+MUSSER,203,Double,204,Substance Free
+MUSSER,204,Double,206,Substance Free
+MUSSER,205,Double,205,Substance Free
+MUSSER,206,Double,205,Substance Free
+MUSSER,207,Double,208,Substance Free
+MUSSER,208,Double,206,Substance Free
+MUSSER,209,Double,205,Substance Free
+MUSSER,210,Double,206,Substance Free
+MUSSER,211,Single,206,Substance Free
+MUSSER,213,Double,131,Substance Free
+MUSSER,214,Single,209,Substance Free
+MUSSER,215,Single,129,Substance Free
+MUSSER,217,Double,126,Substance Free
+MUSSER,218,Double,204,Substance Free
+MUSSER,219,Double,208,Substance Free
+MUSSER,220,Double,207,Substance Free
+MUSSER,221,Double,208,Substance Free
+MUSSER,222,Double,206,Substance Free
+MUSSER,223,Double,207,Substance Free
+MUSSER,224,Double,206,Substance Free
+MUSSER,225,Double,206,Substance Free
+MUSSER,226,Double,206,Substance Free
+MUSSER,227,Single,199,Substance Free
+MUSSER,228,Single,127,Substance Free
+MUSSER,301,Double,126,
+MUSSER,302,Double,197,
+MUSSER,303,Double,204,
+MUSSER,304,Double,206,
+MUSSER,305,Double,205,
+MUSSER,306,Double,205,
+MUSSER,307,Double,208,
+MUSSER,308,Double,206,
+MUSSER,309,Double,205,
+MUSSER,310,Double,206,
+MUSSER,311,Single,206,
+MUSSER,313,Double,131,
+MUSSER,314,Single,209,
+MUSSER,315,Single,129,
+MUSSER,317,Double,126,
+MUSSER,318,Double,204,
+MUSSER,319,Double,208,
+MUSSER,320,Double,207,
+MUSSER,321,Double,208,
+MUSSER,322,Double,206,
+MUSSER,323,Double,207,
+MUSSER,324,Double,206,
+MUSSER,325,Double,206,
+MUSSER,326,Double,206,
+MUSSER,327,Single,199,
+MUSSER,328,Single,127,
+MUSSER,401,Double,126,
+MUSSER,402,Double,197,
+MUSSER,403,Double,204,
+MUSSER,404,Double,206,
+MUSSER,405,Double,205,
+MUSSER,406,Double,205,
+MUSSER,407,Double,208,
+MUSSER,408,Double,206,
+MUSSER,409,Double,205,
+MUSSER,410,Double,206,
+MUSSER,411,Single,206,
+MUSSER,413,Double,131,
+MUSSER,414,Single,209,
+MUSSER,415,Single,129,
+MUSSER,417,Double,126,
+MUSSER,418,Double,204,
+MUSSER,419,Double,208,
+MUSSER,420,Double,207,
+MUSSER,421,Double,208,
+MUSSER,422,Double,206,
+MUSSER,423,Double,207,
+MUSSER,424,Double,206,
+MUSSER,425,Double,206,
+MUSSER,426,Double,206,
+MUSSER,427,Single,199,
+MUSSER,428,Single,127,
+MYERS,115A,"Double, 2 Room",126,
+MYERS,201,Double,140,
+MYERS,202,Double,202,
+MYERS,203,Double,219,
+MYERS,205,Double,220,
+MYERS,206,Double,212,
+MYERS,207,Double,214,
+MYERS,208,Double,222,
+MYERS,209,Double,206,
+MYERS,210,Double,220,
+MYERS,211,Double,220,
+MYERS,213,Single,204,
+MYERS,214,Single,120,
+MYERS,233,Single,100,
+MYERS,234,Single,129,
+MYERS,236,Double,131,
+MYERS,237,Double,206,
+MYERS,238,Double,223,
+MYERS,239,Double,222,
+MYERS,240,Double,222,
+MYERS,241,Double,222,
+MYERS,242,Double,221,
+MYERS,243,Double,221,
+MYERS,244,Double,222,
+MYERS,245,Double,221,
+MYERS,246,Double,221,
+MYERS,301,Double,198,All First Year Student Living Community
+MYERS,302,Double,202,All First Year Student Living Community
+MYERS,303,Double,219,All First Year Student Living Community
+MYERS,305,Double,220,All First Year Student Living Community
+MYERS,306,Double,212,All First Year Student Living Community
+MYERS,307,Double,214,All First Year Student Living Community
+MYERS,308,Double,222,All First Year Student Living Community
+MYERS,309,Double,206,All First Year Student Living Community
+MYERS,310,Double,220,All First Year Student Living Community
+MYERS,311,Double,220,All First Year Student Living Community
+MYERS,313,Single,204,All First Year Student Living Community
+MYERS,314,Single,120,All First Year Student Living Community
+MYERS,333,Single,100,All First Year Student Living Community
+MYERS,334,Single,129,All First Year Student Living Community
+MYERS,336,Double,131,All First Year Student Living Community
+MYERS,337,Double,206,All First Year Student Living Community
+MYERS,338,Double,223,All First Year Student Living Community
+MYERS,339,Double,222,All First Year Student Living Community
+MYERS,340,Double,222,All First Year Student Living Community
+MYERS,341,Double,222,All First Year Student Living Community
+MYERS,342,Double,221,All First Year Student Living Community
+MYERS,343,Double,221,All First Year Student Living Community
+MYERS,344,Double,222,All First Year Student Living Community
+MYERS,345,Double,221,All First Year Student Living Community
+MYERS,346,Double,221,All First Year Student Living Community
+MYERS,401,Double,198,
+MYERS,402,Double,214,
+MYERS,403,Double,218,
+MYERS,404,Double,218,
+MYERS,405,Double,218,
+MYERS,406,Double,218,
+MYERS,407,Double,218,
+MYERS,408,Double,218,
+MYERS,409,Double,218,
+MYERS,410,Double,218,
+MYERS,411,Double,218,
+MYERS,413,Single,206,
+MYERS,414,Single,143,
+MYERS,433,Single,140,
+MYERS,434,Single,137,
+MYERS,436,Double,138,
+MYERS,437,Double,212,
+MYERS,438,Double,219,
+MYERS,439,Double,219,
+MYERS,440,Double,219,
+MYERS,441,Double,219,
+MYERS,442,Double,221,
+MYERS,443,Double,220,
+MYERS,444,Double,220,
+MYERS,445,Double,221,
+MYERS,446,Double,220,
+NOURSE,12,Single,205,Single Gender Floor – Men
+NOURSE,13,Double,131,Single Gender Floor – Men
+NOURSE,14,Single,188,Single Gender Floor – Men
+NOURSE,15,Single,124,Single Gender Floor – Men
+NOURSE,16,Single,109,Single Gender Floor – Men
+NOURSE,17,Single,111,Single Gender Floor – Men
+NOURSE,100,Triple,127,
+NOURSE,101A,"Triple, 2 Room",167,
+NOURSE,103,Single,85,
+NOURSE,104A,"Double, 2 Room",124,
+NOURSE,105,Single,71,
+NOURSE,106A,"Double, 2 Room",137,
+NOURSE,107,Single,68,
+NOURSE,108,Single,190,
+NOURSE,109A,Single in a Double,150,
+NOURSE,109B,Single in a Double,69,
+NOURSE,110,Single,65,
+NOURSE,112,Double,125,
+NOURSE,122,"Triple, 2 Room",209,
+NOURSE,200,Triple,578,Quiet Living Area
+NOURSE,201A,"Triple, 2 Room",195,Quiet Living Area
+NOURSE,203A,"Triple, 2 Room",85,Quiet Living Area
+NOURSE,204A,"Double, 2 Room",164,Quiet Living Area
+NOURSE,206A,"Double, 2 Room",71,Quiet Living Area
+NOURSE,207,Single,72,Quiet Living Area
+NOURSE,208A,"Triple, 2 Room",146,Quiet Living Area
+NOURSE,209A,"Double, 2 Room",141,Quiet Living Area
+NOURSE,211A,"Double, 2 Room",66,Quiet Living Area
+NOURSE,212,Double,69,Quiet Living Area
+NOURSE,214,Single,208,Quiet Living Area
+NOURSE,215,Single,149,Quiet Living Area
+NOURSE,216,Triple,169,Quiet Living Area
+NOURSE,217,Triple,350,Quiet Living Area
+NOURSE,300,Triple,445,Substance Free
+NOURSE,301A,"Triple, 2 Room",209,Substance Free
+NOURSE,303A,"Triple, 2 Room",81,Substance Free
+NOURSE,304A,"Double, 2 Room",164,Substance Free
+NOURSE,306A,"Double, 2 Room",64,Substance Free
+NOURSE,307,Single,71,Substance Free
+NOURSE,308A,"Triple, 2 Room",143,Substance Free
+NOURSE,309A,"Double, 2 Room",132,Substance Free
+NOURSE,311A,"Double, 2 Room",71,Substance Free
+NOURSE,312,Double,68,Substance Free
+NOURSE,314,Single,213,Substance Free
+NOURSE,315,Single,149,Substance Free
+NOURSE,316,Triple,171,Substance Free
+NOURSE,317,Triple,356,Substance Free
+NOURSE,400,Double,402,Single Gender Floor – Women
+NOURSE,401,Double,247,Single Gender Floor – Women
+NOURSE,405,Double,270,Single Gender Floor – Women
+NOURSE,407A,"Double, 2 Room",188,Single Gender Floor – Women
+NOURSE,410,Double,79,Single Gender Floor – Women
+NOURSE,412,Double,232,Single Gender Floor – Women
+NOURSE,414,Single,217,Single Gender Floor – Women
+NOURSE,415,Single,141,Single Gender Floor – Women
+NOURSE,416,Double,153,Single Gender Floor – Women
+NOURSE,417,Double,252,Single Gender Floor – Women
+NOURSE,418,Double,309,Single Gender Floor – Women
+SEVY,203A,Double in Quad,306,
+SEVY,203B,Single in a Quad,185,
+SEVY,203C,Single in a Quad,135,
+SEVY,204,Double,131,
+SEVY,207A,Single in a Double,233,
+SEVY,207B,Single in a Double,153,
+SEVY,208A,Double in Quad,187,
+SEVY,208B,Double in Quad,127,
+SEVY,209A,Double in Quad,208,
+SEVY,209B,Double in Quad,179,
+SEVY,210A,Double in Quad,178,
+SEVY,210B,Double in Quad,152,
+SEVY,212A,Single in a Double,122,
+SEVY,212B,Single in a Double,153,
+SEVY,213,Single,109,
+SEVY,214A,Double in Quad,149,
+SEVY,214B,Double in Quad,157,
+SEVY,303A,Double in Quad,153,
+SEVY,303B,Single in a Quad,185,
+SEVY,303C,Single in a Quad,153,
+SEVY,304,Double,132,
+SEVY,306A,Double in Quad,253,
+SEVY,306B,Double in Quad,239,
+SEVY,307A,Double in Triple,197,
+SEVY,307B,Single in a Triple,171,
+SEVY,309A,Double in Quad,146,
+SEVY,309B,Double in Quad,153,
+SEVY,311,Single,151,
+SEVY,312A,Double in Quad,173,
+SEVY,312B,Double in Quad,158,
+SEVY,403A,Triple in a Quad,146,
+SEVY,403B,Single in a Quad,128,
+SEVY,409A,Double in Quad,113,
+SEVY,409B,Double in Quad,248,
+WATSON,116,Triple,158,Substance Free
+WATSON,201,Single,197,Substance Free
+WATSON,202,Single,150,Substance Free
+WATSON,203,Triple,147,Substance Free
+WATSON,204,Single,270,Substance Free
+WATSON,205,Single,165,Substance Free
+WATSON,206,Double,163,Substance Free
+WATSON,207,Triple,254,Substance Free
+WATSON,208,Single,267,Substance Free
+WATSON,209,Single,149,Substance Free
+WATSON,210,Double,147,Substance Free
+WATSON,211,Single,210,Substance Free
+WATSON,212,Single,147,Substance Free
+WATSON,213,Triple,147,Substance Free
+WATSON,214,Double,300,Substance Free
+WATSON,215,Single,255,Substance Free
+WATSON,216,Single,145,Substance Free
+WATSON,217,Triple,150,Substance Free
+WATSON,218,Single,263,Substance Free
+WATSON,219,Single,149,Substance Free
+WATSON,301,Single,149,
+WATSON,302,Single,150,
+WATSON,303,Triple,147,
+WATSON,304,Single,270,
+WATSON,305,Single,165,
+WATSON,306,Double,163,
+WATSON,307,Triple,254,
+WATSON,308,Single,267,
+WATSON,309,Single,149,
+WATSON,310,Double,147,
+WATSON,311,Single,210,
+WATSON,312,Single,147,
+WATSON,313,Triple,147,
+WATSON,314,Double,300,
+WATSON,315,Single,255,
+WATSON,316,Single,145,
+WATSON,317,Triple,150,
+WATSON,318,Single,263,
+WATSON,319,Single,149,
+WATSON,401,Single,149,
+WATSON,402,Single,150,
+WATSON,403,Triple,147,
+WATSON,404,Single,270,
+WATSON,405,Single,165,
+WATSON,406,Double,163,
+WATSON,407,Triple,254,
+WATSON,408,Single,267,
+WATSON,409,Single,149,
+WATSON,410,Double,147,
+WATSON,411,Single,210,
+WATSON,412,Single,147,
+WATSON,413,Triple,147,
+WATSON,414,Double,300,
+WATSON,415,Single,255,
+WATSON,416,Single,145,
+WATSON,417,Triple,150,
+WATSON,418,Single,263,
+WATSON,419,Single,149,
+WATSON,501,Single,149,
+WATSON,502,Single,150,
+WATSON,503,Triple,147,
+WATSON,504,Single,270,
+WATSON,505,Single,165,
+WATSON,506,Double,163,
+WATSON,507,Triple,254,
+WATSON,508,Single,267,
+WATSON,509,Single,149,
+WATSON,510,Double,147,
+WATSON,511,Single,210,
+WATSON,512,Single,147,
+WATSON,513,Triple,147,
+WATSON,514,Double,300,
+WATSON,515,Single,255,
+WATSON,516,Single,145,
+WATSON,517,Triple,150,
+WATSON,518,Single,263,
+WATSON,519,Single,149,
+WATSON,601,Single,149,Quiet Living Area
+WATSON,602,Single,150,Quiet Living Area
+WATSON,603,Triple,147,Quiet Living Area
+WATSON,604,Single,270,Quiet Living Area
+WATSON,605,Single,165,Quiet Living Area
+WATSON,606,Double,163,Quiet Living Area
+WATSON,607,Triple,254,Quiet Living Area
+WATSON,608,Single,267,Quiet Living Area
+WATSON,609,Single,149,Quiet Living Area
+WATSON,610,Double,147,Quiet Living Area
+WATSON,611,Single,210,Quiet Living Area
+WATSON,612,Single,147,Quiet Living Area
+WATSON,613,Triple,147,Quiet Living Area
+WATSON,614,Double,300,Quiet Living Area
+WATSON,615,Single,255,Quiet Living Area
+WATSON,616,Single,145,Quiet Living Area
+WATSON,617,Triple,150,Quiet Living Area
+WATSON,618,Single,263,Quiet Living Area
+WATSON,619,Single,149,Quiet Living Area
+WATSON,701,Single,149,Quiet Living Area
+WATSON,702,Single,150,Quiet Living Area
+WATSON,703,Triple,147,Quiet Living Area
+WATSON,704,Single,270,Quiet Living Area
+WATSON,705,Single,165,Quiet Living Area
+WATSON,706,Double,163,Quiet Living Area
+WATSON,707,Triple,254,Quiet Living Area
+WATSON,708,Single,267,Quiet Living Area
+WATSON,709,Single,149,Quiet Living Area
+WATSON,710,Double,147,Quiet Living Area
+WATSON,711,Single,210,Quiet Living Area
+WATSON,712,Single,147,Quiet Living Area
+WATSON,713,Triple,147,Quiet Living Area
+WATSON,714,Double,300,Quiet Living Area
+WATSON,715,Single,255,Quiet Living Area
+WATSON,716,Single,145,Quiet Living Area
+WATSON,717,Triple,150,Quiet Living Area
+WATSON,718,Single,263,Quiet Living Area
+WATSON,719,Single,149,Quiet Living Area
+,,,149,
